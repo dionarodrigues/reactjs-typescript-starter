@@ -41,8 +41,10 @@ export default createGlobalStyle`
     --border-color-light: var(--gray);
 
     --text-color: var(--black);
-    --text-color-rgb: 0,0,0;
-    --text-color-light: var(--gray);
+  }
+
+  * {
+    box-sizing: border-box;
   }
 
   html {
@@ -67,5 +69,23 @@ export default createGlobalStyle`
     max-width: var(--width-container);
     margin: 0 auto;
     padding: 0 var(--space);
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  img {
+    display: block;
+  	max-width: 100%;
+  	height: auto;
+  }
+
+  a {
+    color: var(--primary-color)
+  }
+
+  strong {
+    font-weight: var(--weight-bold);
   }
 `;
