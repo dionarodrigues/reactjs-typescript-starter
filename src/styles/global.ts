@@ -45,6 +45,8 @@ export default createGlobalStyle`
 
   * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 
   html {
@@ -65,10 +67,20 @@ export default createGlobalStyle`
     font: 1.6rem sans-serif;
   }
 
-  #root {
+  .container {
     max-width: var(--width-container);
     margin: 0 auto;
     padding: 0 var(--space);
+  }
+
+  strong,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: var(--weight-bold);
   }
 
   button {
