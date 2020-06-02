@@ -1,6 +1,6 @@
 # Starter for ReactJS applications written in TypeScript
 
-A basic Starter for ReactJS + TypeScript development with setup for Eslint, Prettier, Styled-components and more.
+A basic Starter for ReactJS + TypeScript development with setup for Storybook, Eslint, Prettier, Styled-components and more.
 
 ---
 
@@ -9,6 +9,7 @@ __👌  The follwing is setup out of the box:__
 - Linting via [eslint](https://eslint.org/), [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) and [prettier](https://prettier.io/)
 - Styles via [Styled Components](https://styled-components.com/)
 - Routes via [React Router](https://github.com/ReactTraining/react-router#readme)
+- UI components documentation with [Storybook](https://storybook.js.org/).
 
 ## 🚀 Getting Started
 
@@ -33,6 +34,7 @@ yarn start
 | src/pages | Contains your pages. |
 | src/components | Contains your components. |
 | src/index.tsx | Entry point to your app |
+| ./.storybook | Storybook Settings |
 | .editorconfig | EditorConfig settings |
 | .eslintrc.json | Eslint Settings |
 | prettier.config.js | Prettier settings |
